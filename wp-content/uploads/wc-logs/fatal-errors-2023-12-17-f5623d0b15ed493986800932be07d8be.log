@@ -1,0 +1,107 @@
+2023-12-17T18:33:18+00:00 CRITICAL Uncaught Error: Call to undefined function simplexml_load_string() in /var/www/web/wp-content/plugins/erp/includes/functions.php:2774
+Stack trace:
+#0 /var/www/web/wp-content/plugins/erp/includes/Admin/views/erp-overview.php(17): erp_web_feed()
+#1 /var/www/web/wp-content/plugins/erp/includes/Admin/AdminMenu.php(262): include_once('...')
+#2 /var/www/web/wp-includes/class-wp-hook.php(324): WeDevs\ERP\Admin\AdminMenu->overview_page()
+#3 /var/www/web/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /var/www/web/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /var/www/web/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/web/wp-content/plugins/erp/includes/functions.php on line 2774
+
+2023-12-17T18:39:54+00:00 CRITICAL Uncaught Error: Call to undefined function WeDevs\ERP_PDF\get_magic_quotes_runtime() in /var/www/web/wp-content/plugins/erp-pdf-invoice/includes/class-tfpdf.php:1265
+Stack trace:
+#0 /var/www/web/wp-content/plugins/erp-pdf-invoice/includes/class-tfpdf.php(84): WeDevs\ERP_PDF\tFPDF->_dochecks()
+#1 /var/www/web/wp-content/plugins/erp-pdf-invoice/includes/class-pdf-invoicer.php(61): WeDevs\ERP_PDF\tFPDF->__construct()
+#2 /var/www/web/wp-content/plugins/erp/modules/accounting/includes/functions/transactions.php(895): WeDevs\ERP_PDF\PDF_Invoicer->__construct()
+#3 /var/www/web/wp-content/plugins/erp/modules/accounting/includes/functions/transactions.php(1510): erp_acct_generate_pdf()
+#4 /var/www/web/wp-includes/class-wp-hook.php(324): erp_acct_send_email_on_transaction()
+#5 /var/www/web/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/web/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /var/www/web/wp-content/plugins/erp/modules/accounting/includes/functions/invoices.php(286): do_action()
+#8 /var/www/web/wp-content/plugins/erp/modules/accounting/includes/API/InvoicesController.php(265): erp_acct_insert_invoice()
+#9 /var/www/web/wp-includes/rest-api/class-wp-rest-server.php(1193): WeDevs\ERP\Accounting\API\InvoicesController->create_invoice()
+#10 /var/www/web/wp-includes/rest-api/class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request()
+#11 /var/www/web/wp-includes/rest-api/class-wp-rest-server.php(431): WP_REST_Server->dispatch()
+#12 /var/www/web/wp-includes/rest-api.php(424): WP_REST_Server->serve_request()
+#13 /var/www/web/wp-includes/class-wp-hook.php(324): rest_api_loaded()
+#14 /var/www/web/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#15 /var/www/web/wp-includes/plugin.php(565): WP_Hook->do_action()
+#16 /var/www/web/wp-includes/class-wp.php(418): do_action_ref_array()
+#17 /var/www/web/wp-includes/class-wp.php(813): WP->parse_request()
+#18 /var/www/web/wp-includes/functions.php(1336): WP->main()
+#19 /var/www/web/wp-blog-header.php(16): wp()
+#20 /var/www/web/index.php(17): require('...')
+#21 {main}
+  thrown in /var/www/web/wp-content/plugins/erp-pdf-invoice/includes/class-tfpdf.php on line 1265
+
+2023-12-17T19:42:19+00:00 CRITICAL Uncaught Error: Call to undefined function simplexml_load_string() in /var/www/web/wp-content/plugins/erp/includes/functions.php:2774
+Stack trace:
+#0 /var/www/web/wp-content/plugins/erp/includes/Admin/views/erp-overview.php(17): erp_web_feed()
+#1 /var/www/web/wp-content/plugins/erp/includes/Admin/AdminMenu.php(262): include_once('...')
+#2 /var/www/web/wp-includes/class-wp-hook.php(324): WeDevs\ERP\Admin\AdminMenu->overview_page()
+#3 /var/www/web/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /var/www/web/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /var/www/web/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/web/wp-content/plugins/erp/includes/functions.php on line 2774
+
+2023-12-17T19:50:32+00:00 CRITICAL Uncaught Error: Call to undefined function simplexml_load_string() in /var/www/web/wp-content/plugins/erp/includes/functions.php:2774
+Stack trace:
+#0 /var/www/web/wp-content/plugins/erp/includes/Admin/views/erp-overview.php(17): erp_web_feed()
+#1 /var/www/web/wp-content/plugins/erp/includes/Admin/AdminMenu.php(262): include_once('...')
+#2 /var/www/web/wp-includes/class-wp-hook.php(324): WeDevs\ERP\Admin\AdminMenu->overview_page()
+#3 /var/www/web/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /var/www/web/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /var/www/web/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/web/wp-content/plugins/erp/includes/functions.php on line 2774
+
+2023-12-17T22:16:41+00:00 CRITICAL Uncaught Error: Call to undefined function WeDevs\ERP_PDF\get_magic_quotes_runtime() in /var/www/web/wp-content/plugins/erp-pdf-invoice/includes/class-tfpdf.php:1265
+Stack trace:
+#0 /var/www/web/wp-content/plugins/erp-pdf-invoice/includes/class-tfpdf.php(84): WeDevs\ERP_PDF\tFPDF->_dochecks()
+#1 /var/www/web/wp-content/plugins/erp-pdf-invoice/includes/class-pdf-invoicer.php(61): WeDevs\ERP_PDF\tFPDF->__construct()
+#2 /var/www/web/wp-content/plugins/erp/modules/accounting/includes/functions/transactions.php(895): WeDevs\ERP_PDF\PDF_Invoicer->__construct()
+#3 /var/www/web/wp-content/plugins/erp/modules/accounting/includes/functions/transactions.php(1510): erp_acct_generate_pdf()
+#4 /var/www/web/wp-includes/class-wp-hook.php(324): erp_acct_send_email_on_transaction()
+#5 /var/www/web/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/web/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /var/www/web/wp-content/plugins/erp/modules/accounting/includes/functions/invoices.php(286): do_action()
+#8 /var/www/web/wp-content/plugins/erp/modules/accounting/includes/API/InvoicesController.php(265): erp_acct_insert_invoice()
+#9 /var/www/web/wp-includes/rest-api/class-wp-rest-server.php(1193): WeDevs\ERP\Accounting\API\InvoicesController->create_invoice()
+#10 /var/www/web/wp-includes/rest-api/class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request()
+#11 /var/www/web/wp-includes/rest-api/class-wp-rest-server.php(431): WP_REST_Server->dispatch()
+#12 /var/www/web/wp-includes/rest-api.php(424): WP_REST_Server->serve_request()
+#13 /var/www/web/wp-includes/class-wp-hook.php(324): rest_api_loaded()
+#14 /var/www/web/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#15 /var/www/web/wp-includes/plugin.php(565): WP_Hook->do_action()
+#16 /var/www/web/wp-includes/class-wp.php(418): do_action_ref_array()
+#17 /var/www/web/wp-includes/class-wp.php(813): WP->parse_request()
+#18 /var/www/web/wp-includes/functions.php(1336): WP->main()
+#19 /var/www/web/wp-blog-header.php(16): wp()
+#20 /var/www/web/index.php(17): require('...')
+#21 {main}
+  thrown in /var/www/web/wp-content/plugins/erp-pdf-invoice/includes/class-tfpdf.php on line 1265
+
+2023-12-17T23:05:25+00:00 CRITICAL Uncaught Error: Call to undefined function simplexml_load_string() in /var/www/web/wp-content/plugins/erp/includes/functions.php:2774
+Stack trace:
+#0 /var/www/web/wp-content/plugins/erp/includes/Admin/views/erp-overview.php(17): erp_web_feed()
+#1 /var/www/web/wp-content/plugins/erp/includes/Admin/AdminMenu.php(262): include_once('...')
+#2 /var/www/web/wp-includes/class-wp-hook.php(324): WeDevs\ERP\Admin\AdminMenu->overview_page()
+#3 /var/www/web/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /var/www/web/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /var/www/web/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/web/wp-content/plugins/erp/includes/functions.php on line 2774
+
+2023-12-17T23:18:20+00:00 CRITICAL Uncaught Error: Call to undefined function simplexml_load_string() in /var/www/web/wp-content/plugins/erp/includes/functions.php:2774
+Stack trace:
+#0 /var/www/web/wp-content/plugins/erp/includes/Admin/views/erp-overview.php(17): erp_web_feed()
+#1 /var/www/web/wp-content/plugins/erp/includes/Admin/AdminMenu.php(262): include_once('...')
+#2 /var/www/web/wp-includes/class-wp-hook.php(324): WeDevs\ERP\Admin\AdminMenu->overview_page()
+#3 /var/www/web/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /var/www/web/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /var/www/web/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/web/wp-content/plugins/erp/includes/functions.php on line 2774
+

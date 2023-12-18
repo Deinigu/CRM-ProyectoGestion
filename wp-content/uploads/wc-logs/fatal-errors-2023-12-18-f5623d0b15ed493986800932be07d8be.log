@@ -1,0 +1,33 @@
+2023-12-18T20:56:40+00:00 CRITICAL Uncaught Error: Call to undefined function simplexml_load_string() in /var/www/web/wp-content/plugins/erp/includes/functions.php:2774
+Stack trace:
+#0 /var/www/web/wp-content/plugins/erp/includes/Admin/views/erp-overview.php(17): erp_web_feed()
+#1 /var/www/web/wp-content/plugins/erp/includes/Admin/AdminMenu.php(262): include_once('...')
+#2 /var/www/web/wp-includes/class-wp-hook.php(324): WeDevs\ERP\Admin\AdminMenu->overview_page()
+#3 /var/www/web/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /var/www/web/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /var/www/web/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/web/wp-content/plugins/erp/includes/functions.php on line 2774
+
+2023-12-18T20:59:17+00:00 CRITICAL Uncaught Error: Call to undefined function simplexml_load_string() in /var/www/web/wp-content/plugins/erp/includes/functions.php:2774
+Stack trace:
+#0 /var/www/web/wp-content/plugins/erp/includes/Admin/views/erp-overview.php(17): erp_web_feed()
+#1 /var/www/web/wp-content/plugins/erp/includes/Admin/AdminMenu.php(262): include_once('...')
+#2 /var/www/web/wp-includes/class-wp-hook.php(324): WeDevs\ERP\Admin\AdminMenu->overview_page()
+#3 /var/www/web/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /var/www/web/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /var/www/web/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/web/wp-content/plugins/erp/includes/functions.php on line 2774
+
+2023-12-18T21:14:00+00:00 CRITICAL Uncaught Error: Call to undefined function simplexml_load_string() in /var/www/web/wp-content/plugins/erp/includes/functions.php:2774
+Stack trace:
+#0 /var/www/web/wp-content/plugins/erp/includes/Admin/views/erp-overview.php(17): erp_web_feed()
+#1 /var/www/web/wp-content/plugins/erp/includes/Admin/AdminMenu.php(262): include_once('...')
+#2 /var/www/web/wp-includes/class-wp-hook.php(324): WeDevs\ERP\Admin\AdminMenu->overview_page()
+#3 /var/www/web/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /var/www/web/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /var/www/web/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/web/wp-content/plugins/erp/includes/functions.php on line 2774
+
